@@ -1,5 +1,8 @@
-﻿using xadrez_console.tabuleiro;
-
-Posicao P = new Posicao(3, 4);
+﻿using xadrez_console;
+using xadrez_console.tabuleiro;
 
 Tabuleiro tab = new Tabuleiro(8, 8);
+
+Tela.imprimirTabuleiro(tab);
+
+Console.ReadLine();
